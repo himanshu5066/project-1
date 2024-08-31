@@ -122,7 +122,7 @@ buttons = [
 row = 1
 col = 0
 for (text, func) in buttons:
-    tk.Button(frame, text=text, width=5, height=2, font=('Arial', 18), command=func).grid(row=row, column=col, sticky="nsew")
+     tk.Button(frame, text=text, width=5, height=2, font=('Arial', 18), command=func).grid(row=row, column=col, sticky="nsew")
     
     col += 1
     if col > 3:

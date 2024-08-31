@@ -112,10 +112,8 @@ entry.grid(row=0, column=0, columnspan=5, sticky="nsew")
 buttons = [
     ('C', button_clear),('=', button_equal),('+', add), ('-', subtract),('*', multiply),
     ('/', divide), ('%', modulo), ('sqrt', square_root), ('1/x', reciprocal), ('x²', square),
-    ('log', logarithm), ('sin', sine), ('exp', exponential), ('9', lambda: button_click('9')), ('8', lambda: button_click('8')),
-    ('7', lambda: button_click('7')), ('6', lambda: button_click('6')),('5', lambda: button_click('5')),
-    ('4', lambda: button_click('4')),  ('3', lambda: button_click('3')), ('2', lambda: button_click('2')), 
-    ('1', lambda: button_click('1')),   ('0', lambda: button_click('0'))
+    ('log', logarithm), ('4', lambda: button_click('4')),  ('3', lambda: button_click('3')), ('2', lambda: button_click('2')), 
+    ('1', lambda: button_click('1')), ('7', lambda: button_click('7')), ('8', lambda: buttton_click('8')),('9', lambda: button_click('9')),  ('0', lambda: button_click('0'))
 ]
 
 # Place buttons on the window
