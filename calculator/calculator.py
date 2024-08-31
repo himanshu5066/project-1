@@ -11,7 +11,8 @@ def button_clear():
     entry_text.set("")
 
 # Function to calculate the expression
-def button_equal() 
+def button_equal():
+        Try :
         result = str(eval(entry_text.get()))
         entry_text.set(result)
     except Exception as e:
